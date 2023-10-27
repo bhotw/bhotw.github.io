@@ -3,19 +3,19 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body take up the full viewport height */
 }
 
 .container {
-    max-width:100%;
-    margin: 0 auto;
+    max-width: 600px;
     padding: 20px;
-    background-color: #310dd3;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 h1 {
