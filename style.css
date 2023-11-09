@@ -11,8 +11,8 @@ header {
     background-color: #333;
     color: white;
     padding: 10px;
-    border-top-left-radius: 10px; /* Rounded top-left corner */
-    border-top-right-radius: 10px; /* Rounded top-right corner */
+    border-top-left-radius: 20px; /* Rounded top-left corner */
+    border-top-right-radius: 20px; /* Rounded top-right corner */
     margin-bottom: 20px; /* Add some space below the header */
 }
 
@@ -42,7 +42,86 @@ footer {
     background-color: #333;
     color: white;
     padding: 5px;
-    border-bottom-left-radius: 5px; /* Rounded bottom-left corner */
-    border-bottom-right-radius: 5px; /* Rounded bottom-right corner */
+    border-bottom-left-radius: 20px; /* Rounded bottom-left corner */
+    border-bottom-right-radius: 20px; /* Rounded bottom-right corner */
     text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contact-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff; /* White background for the content area */
+    border-radius: 10px; /* Rounded corners for the content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    margin: 10px; /* Add spacing around the content */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+/* Styling for navigation buttons */
+.nav-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.nav-button:hover {
+    background-color: #555;
+}
+
+/* Styling for contact buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contact-button {
+    background-color: #0073e6;
+    color: white;
+    width: 150px; /* Fixed width for the buttons */
+    text-align: center; /* Center the button text */
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.contact-button:hover {
+    background-color: #0059b3;
 }
