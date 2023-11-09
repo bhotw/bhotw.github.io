@@ -1,16 +1,32 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Happy Birthday, the love of my life!</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Happy Birthday, the love of my life!!</h1>
-        <p>This is a special birthday surprise just for you.</p>
+        <header>
+            <h1>Md Sheik</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="roadmap.html">Roadmap</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
     </div>
+    <footer>
+        <p>This is a Bhotw product</p>
+    </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
+
+
+

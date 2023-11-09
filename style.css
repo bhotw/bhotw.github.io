@@ -1,31 +1,48 @@
 body {
-    margin-top: 20px;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Make the body take up the full viewport height */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center content horizontally */
 }
-
 .container {
-    margin-top: 20px;
-    max-width: 600px;
+    flex: 1; /* Allow the main content to fill available space */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px; /* Rounded top-left corner */
+    border-top-right-radius: 10px; /* Rounded top-right corner */
+    margin-bottom: 20px; /* Add some space below the header */
+}
+
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Change link color */
+}
+main {
+    flex: 1; /* Expand the main content area */
     padding: 20px;
-    background-color: #680000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+}
+
+/* Add more CSS styles for your content as needed. */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-bottom-left-radius: 5px; /* Rounded bottom-left corner */
+    border-bottom-right-radius: 5px; /* Rounded bottom-right corner */
     text-align: center;
-}
-
-h1 {
-    font-size: 36px;
-    color: #333;
-}
-
-p {
-    font-size: 18px;
-    color: #666;
 }
