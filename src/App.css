@@ -1,38 +1,166 @@
-.App {
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center; /* Center content horizontally */
+  min-height: 100vh; /* This ensures the container takes at least the full height of the viewport */
+  margin: 0;
+}
+.container {
+  flex: 1; /* Allow the main content to fill available space */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 20px; /* Rounded top-left corner */
+  border-top-right-radius: 20px; /* Rounded top-right corner */
+  margin-bottom: 20px; /* Add some space below the header */
+}
+
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+nav li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add some space between items */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Change link color */
+}
+main {
+  flex: 1; /* Expand the main content area */
+  padding: 20px;
+}
+
+/* Add more CSS styles for your content as needed. */
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-bottom-left-radius: 10px; /* Rounded bottom-left corner */
+  border-bottom-right-radius: 10px; /* Rounded bottom-right corner */
   text-align: center;
+  margin-top: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  margin: 0;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.container {
+  flex: 1;
+}
+
+header {
+  background-color: #333;
   color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff; /* White background for the content area */
+  border-radius: 10px; /* Rounded corners for the content area */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  margin: 10px; /* Add spacing around the content */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}
+
+/* Styling for navigation buttons */
+.nav-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.nav-button:hover {
+  background-color: #555;
+}
+
+/* Styling for contact buttons */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact-button {
+  background-color: #0073e6;
+  color: white;
+  width: 150px; /* Fixed width for the buttons */
+  text-align: center; /* Center the button text */
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.contact-button:hover {
+  background-color: #0059b3;
+}
+
+/* styles.css */
+
+/* ... your existing styles ... */
+
+.contact-me {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact-button {
+  background-color: #0073e6;
+  color: white;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.contact-button:hover {
+  background-color: #0059b3;
 }
