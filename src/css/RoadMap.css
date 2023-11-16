@@ -1,0 +1,35 @@
+.roadman {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; /* Hide overflow to ensure cards are within the road */
+  }
+  
+  .vertical-road {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 30px; /* Adjust the width of the road */
+    background-color: #555;
+    position: relative;
+    border-top-left-radius: 20px; /* Rounded bottom-left corner */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; /* Rounded bottom-left corner */
+    border-bottom-right-radius: 20px;
+  }
+  .vertical-road::after {
+    content: '';
+    position: absolute;
+    width: 5px; /* Adjust the width of the second line */
+    height: 100%;
+    background-color: #ccc; /* Choose a different color for the second line */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+    padding: 20px;
+  }

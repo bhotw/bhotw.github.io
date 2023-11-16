@@ -1,0 +1,32 @@
+.card {
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: width 0.5s;
+  }
+  
+  .card.expanded {
+    width: calc(100% - 20px); /* Adjust the expanded width as needed */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .details {
+    padding: 10px;
+  }

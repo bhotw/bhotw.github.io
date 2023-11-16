@@ -1,10 +1,4 @@
-body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
-  text-align: center; /* Center content horizontally */
-  min-height: 100vh; /* This ensures the container takes at least the full height of the viewport */
-  margin: 0;
-}
+
 .container {
   flex: 1; /* Allow the main content to fill available space */
   display: flex;
@@ -17,7 +11,6 @@ header {
   padding: 10px;
   border-top-left-radius: 20px; /* Rounded top-left corner */
   border-top-right-radius: 20px; /* Rounded top-right corner */
-  margin-bottom: 20px; /* Add some space below the header */
 }
 
 
@@ -37,12 +30,11 @@ nav a {
 }
 main {
   flex: 1; /* Expand the main content area */
-  padding: 20px;
 }
 
 /* Add more CSS styles for your content as needed. */
 
-footer {
+.footer {
   background-color: #333;
   color: white;
   padding: 10px;
@@ -50,6 +42,7 @@ footer {
   border-bottom-right-radius: 10px; /* Rounded bottom-right corner */
   text-align: center;
   margin-top: auto;
+  bottom:0;
 }
 
 body {
@@ -63,17 +56,6 @@ body {
   flex-direction: column;
 }
 
-.container {
-  flex: 1;
-}
-
-header {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
 
 .contact-content {
   flex: 1;
@@ -81,17 +63,9 @@ header {
   background-color: #fff; /* White background for the content area */
   border-radius: 10px; /* Rounded corners for the content area */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-  margin: 10px; /* Add spacing around the content */
+  margin: 10px; 
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  text-align: center;
-}
 
 /* Styling for navigation buttons */
 .nav-button {
@@ -164,3 +138,5 @@ footer {
 .contact-button:hover {
   background-color: #0059b3;
 }
+
+/* styles.css */

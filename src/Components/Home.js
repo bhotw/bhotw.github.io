@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MainContent = () => {
+const Home = () => {
   return (
     <main className="contact-content">
       <p>This will have some simple overview of some of the big things that I have worked on and that I am part of.</p>
@@ -11,4 +11,4 @@ const MainContent = () => {
   );
 }
 
-export default MainContent;
+export default Home;
