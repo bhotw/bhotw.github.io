@@ -1,13 +1,10 @@
 .roadman {
     display: flex;
-    height: 100vh;
+    height: 100%;
     overflow: hidden; /* Hide overflow to ensure cards are within the road */
   }
   
   .vertical-road {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 10px;
     width: 30px; /* Adjust the width of the road */
     background-color: #555;
     position: relative;
@@ -21,15 +18,11 @@
     position: absolute;
     width: 5px; /* Adjust the width of the second line */
     height: 100%;
-    background-color: #ccc; /* Choose a different color for the second line */
+    background-color: #5d0a0a; /* Choose a different color for the second line */
     left: 50%;
     transform: translateX(-50%);
+    margin-top: 10px;
+    margin-bottom: 50px;
   }
   
-  .cards-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    flex: 1;
-    padding: 20px;
-  }
+  

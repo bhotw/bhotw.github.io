@@ -1,7 +1,7 @@
-// Roadman.js
+
 import React from 'react';
 import Card from './Card';
-import '../css/RoadMap.css'; // Import the styles
+import '../css/RoadMap.css'; 
 
 const RoadMap = () => {
   return (
@@ -11,7 +11,13 @@ const RoadMap = () => {
             <div className="cards-container">
                 <Card title="Project 1" githubLink="https://github.com/project1" />
                 <Card title="Project 2" githubLink="https://github.com/project2" />
-                {/* Add more cards here */}
+                <Card title="Project 2" githubLink="https://github.com/project2" />
+                <Card title="Project 2" githubLink="https://github.com/project2" />
+                <Card title="Project 2" githubLink="https://github.com/project2" />
+                <Card title="Project 2" githubLink="https://github.com/project2" />
+                <Card title="Project 2" githubLink="https://github.com/project2" />
+                <Card title="Project 2" githubLink="https://github.com/project2" />
+                <Card title="Project 2" githubLink="https://github.com/project2" />
             </div>
         </div>
     </main>

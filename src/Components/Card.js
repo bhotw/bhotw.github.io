@@ -1,6 +1,6 @@
-// Card.js
+
 import React, { useState } from 'react';
-import '../css/Card.css'; // Import the styles
+import '../css/Card.css'; 
 
 const Card = ({ title, githubLink }) => {
   const [isExpanded, setExpanded] = useState(false);
